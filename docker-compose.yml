@@ -11,7 +11,7 @@ services:
       - ./:/var/www
     networks:
       - example-network
-
+  
   php:
     image: php:8.0-fpm
     volumes:
@@ -22,4 +22,3 @@ services:
 networks:
   example-network:
     driver: bridge
-    

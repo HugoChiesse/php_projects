@@ -1,3 +1,3 @@
 <?php
 
-echo "Olá php " . PHP_VERSION;
+echo 'Olá, PHP ' . PHP_VERSION;
